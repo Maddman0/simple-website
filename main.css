@@ -1,0 +1,39 @@
+:root {
+    --cream: #F1F2F6;
+    --dark: #1c1a1a;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+
+ul {
+    font-family: calibri;
+    list-style:georgian;
+}
+
+
+.dark-theme {
+    --bg: var(--dark);
+    --fontColor: var(--cream);
+}
+
+.light-theme {
+    --bg: var(--cream);
+    --fontColor: var(--dark);
+  }
+
+  .btn {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: var(--dark);
+    border-color: var(--dark);
+    background-color: var(--cream);
+    text-align: center;
+  }
